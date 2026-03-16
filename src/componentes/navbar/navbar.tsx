@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const WHATSAPP_URL =
-  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
+  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA";
 
 const enlaces = [
   { nombre: "Servicios", href: "#servicios" },
@@ -39,10 +40,16 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <span className="text-xl lg:text-2xl font-black tracking-tight text-brand-blanco">
-              Resilien
-              <span className="texto-gradiente">CIA</span>
-            </span>
+            <div className="h-10 rounded-lg overflow-hidden bg-white/95">
+              <Image
+                src="/logo.jpg"
+                alt="ReciliencIA"
+                width={130}
+                height={40}
+                className="h-10 w-auto object-contain"
+                priority
+              />
+            </div>
           </a>
 
           {/* Links de navegación — desktop */}
@@ -51,7 +58,7 @@ export default function Navbar() {
               <a
                 key={enlace.href}
                 href={enlace.href}
-                className="text-brand-gris-claro hover:text-brand-morado-neon transition-colors duration-200 text-sm font-medium"
+                className="text-brand-gris-claro hover:text-brand-azul-neon transition-colors duration-200 text-sm font-medium"
               >
                 {enlace.nombre}
               </a>
@@ -73,7 +80,7 @@ export default function Navbar() {
           {/* Botón hamburguesa — mobile */}
           <button
             onClick={() => setMenuAbierto(!menuAbierto)}
-            className="md:hidden p-2 text-brand-gris-claro hover:text-brand-morado-neon transition-colors"
+            className="md:hidden p-2 text-brand-gris-claro hover:text-brand-azul-neon transition-colors"
             aria-label="Abrir menú"
           >
             <div className="w-6 flex flex-col gap-1.5">
@@ -107,7 +114,7 @@ export default function Navbar() {
                   key={enlace.href}
                   href={enlace.href}
                   onClick={() => setMenuAbierto(false)}
-                  className="text-brand-gris-claro hover:text-brand-morado-neon transition-colors py-2 text-base font-medium"
+                  className="text-brand-gris-claro hover:text-brand-azul-neon transition-colors py-2 text-base font-medium"
                 >
                   {enlace.nombre}
                 </a>

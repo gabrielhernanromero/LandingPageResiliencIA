@@ -15,7 +15,7 @@ const servicios = [
       "Múltiples idiomas",
       "Aprendizaje continuo",
     ],
-    color: "morado",
+    color: "azul",
     gradiente: "from-brand-morado-oscuro/20 to-transparent",
     borde: "borde-neon-morado",
   },
@@ -30,7 +30,7 @@ const servicios = [
       "Gestión de tickets",
       "Reportes automáticos",
     ],
-    color: "azul",
+    color: "cian",
     gradiente: "from-brand-azul-oscuro/20 to-transparent",
     borde: "borde-neon-azul",
   },
@@ -45,7 +45,7 @@ const servicios = [
       "Base de datos propia",
       "Sin fricción técnica",
     ],
-    color: "morado",
+    color: "azul",
     gradiente: "from-brand-morado-oscuro/20 to-transparent",
     borde: "borde-neon-morado",
   },
@@ -71,7 +71,7 @@ export default function Servicios() {
         className="absolute top-0 left-0 w-full h-px"
         style={{
           background:
-            "linear-gradient(90deg, transparent, rgba(59,130,246,0.4), transparent)",
+            "linear-gradient(90deg, transparent, rgba(0,212,255,0.4), transparent)",
         }}
       />
 
@@ -138,7 +138,7 @@ export default function Servicios() {
                 <ul className="space-y-2">
                   {servicio.caracteristicas.map((c) => (
                     <li key={c} className="flex items-center gap-2 text-sm text-brand-gris-claro">
-                      <span className="w-1.5 h-1.5 rounded-full bg-brand-morado-neon flex-shrink-0" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-brand-azul-neon flex-shrink-0" />
                       {c}
                     </li>
                   ))}

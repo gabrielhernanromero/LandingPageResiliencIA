@@ -56,7 +56,7 @@ export default function Solucion() {
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] rounded-full pointer-events-none"
         style={{
-          background: "radial-gradient(ellipse, rgba(124,58,237,0.08) 0%, transparent 70%)",
+          background: "radial-gradient(ellipse, rgba(0,85,204,0.08) 0%, transparent 70%)",
         }}
         aria-hidden="true"
       />
@@ -73,7 +73,7 @@ export default function Solucion() {
               La solución
             </span>
             <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black text-brand-blanco leading-tight">
-              ResiliencIA pone tu
+              ReciliencIA pone tu
               <br />
               soporte en{" "}
               <span className="texto-gradiente">modo automático</span>
@@ -97,7 +97,7 @@ export default function Solucion() {
               </div>
               <div className="p-4 rounded-xl borde-neon-morado bg-brand-morado-oscuro/10">
                 <p className="text-brand-morado-neon font-bold text-sm mb-2">
-                  ✅ Con ResiliencIA
+                  ✅ Con ReciliencIA
                 </p>
                 <ul className="text-brand-gris-claro text-sm space-y-1">
                   <li>Respuesta en segundos</li>

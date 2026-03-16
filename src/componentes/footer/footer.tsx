@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 
 const WHATSAPP_URL =
-  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
+  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA";
 
 const linksNavegacion = [
   { nombre: "Servicios", href: "#servicios" },
@@ -53,9 +54,15 @@ export default function Footer() {
           {/* Logo y descripción */}
           <div className="flex flex-col gap-4">
             <a href="#" className="inline-flex">
-              <span className="text-2xl font-black text-brand-blanco">
-                Resilien<span className="texto-gradiente">CIA</span>
-              </span>
+              <div className="h-12 rounded-lg overflow-hidden bg-white/95">
+                <Image
+                  src="/logo.jpg"
+                  alt="ReciliencIA"
+                  width={160}
+                  height={48}
+                  className="h-12 w-auto object-contain"
+                />
+              </div>
             </a>
             <p className="text-brand-gris text-sm leading-relaxed max-w-xs">
               Automatización de atención al cliente con inteligencia artificial.
@@ -71,7 +78,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={red.nombre}
-                  className="w-9 h-9 rounded-lg border border-brand-morado/30 flex items-center justify-center text-brand-gris hover:text-brand-morado-neon hover:border-brand-morado/60 transition-all duration-200"
+                  className="w-9 h-9 rounded-lg border border-brand-morado/30 flex items-center justify-center text-brand-gris hover:text-brand-azul-neon hover:border-brand-morado/60 transition-all duration-200"
                 >
                   {red.icono}
                 </a>
@@ -89,7 +96,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-brand-gris hover:text-brand-morado-neon transition-colors text-sm"
+                    className="text-brand-gris hover:text-brand-azul-neon transition-colors text-sm"
                   >
                     {link.nombre}
                   </a>
@@ -127,7 +134,7 @@ export default function Footer() {
         <div className="border-t border-brand-morado/10 pt-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-brand-gris text-sm text-center sm:text-left">
-              © {anoActual} ResiliencIA. Todos los derechos reservados.
+              © {anoActual} ReciliencIA. Todos los derechos reservados.
             </p>
             <p className="text-brand-gris text-xs">
               Automatización con IA · Hecho en Argentina 🇦🇷

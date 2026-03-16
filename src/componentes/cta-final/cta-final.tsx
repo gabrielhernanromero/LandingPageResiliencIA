@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const WHATSAPP_URL =
-  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
+  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA";
 
 export default function CtaFinal() {
   const ref = useRef(null);
@@ -17,7 +17,7 @@ export default function CtaFinal() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 70% 60% at 50% 50%, rgba(124,58,237,0.12) 0%, transparent 70%)",
+            "radial-gradient(ellipse 70% 60% at 50% 50%, rgba(0,85,204,0.12) 0%, transparent 70%)",
         }}
         aria-hidden="true"
       />
@@ -27,14 +27,14 @@ export default function CtaFinal() {
         className="absolute top-0 left-0 w-full h-px"
         style={{
           background:
-            "linear-gradient(90deg, transparent, rgba(168,85,247,0.5), transparent)",
+            "linear-gradient(90deg, transparent, rgba(0,102,255,0.5), transparent)",
         }}
       />
       <div
         className="absolute bottom-0 left-0 w-full h-px"
         style={{
           background:
-            "linear-gradient(90deg, transparent, rgba(59,130,246,0.5), transparent)",
+            "linear-gradient(90deg, transparent, rgba(0,212,255,0.5), transparent)",
         }}
       />
 
@@ -60,7 +60,7 @@ export default function CtaFinal() {
 
           {/* Subtítulo */}
           <p className="text-brand-gris-claro text-lg lg:text-xl max-w-2xl leading-relaxed">
-            Hablemos hoy. En 15 minutos te mostramos exactamente cómo ResiliencIA
+            Hablemos hoy. En 15 minutos te mostramos exactamente cómo ReciliencIA
             puede transformar la atención al cliente de tu empresa — sin compromiso.
           </p>
 
@@ -71,7 +71,7 @@ export default function CtaFinal() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
-            className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-gradient-to-r from-brand-morado-oscuro via-brand-morado to-brand-azul-oscuro text-white font-bold text-xl shadow-2xl shadow-brand-morado/30 transition-shadow duration-300 hover:shadow-brand-morado/50"
+            className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-gradient-to-r from-brand-morado-oscuro via-brand-morado to-brand-azul-neon text-white font-bold text-xl shadow-2xl shadow-brand-morado/30 transition-shadow duration-300 hover:shadow-brand-morado/50"
           >
             {/* Ícono WhatsApp */}
             <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -89,7 +89,7 @@ export default function CtaFinal() {
               "Consulta inicial sin cargo",
             ].map((punto) => (
               <span key={punto} className="flex items-center gap-2">
-                <span className="text-brand-morado-neon">✓</span>
+                <span className="text-brand-azul-neon">✓</span>
                 {punto}
               </span>
             ))}

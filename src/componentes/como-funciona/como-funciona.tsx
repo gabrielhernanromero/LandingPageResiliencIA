@@ -48,7 +48,7 @@ export default function ComoFunciona() {
         className="absolute top-0 left-0 w-full h-px"
         style={{
           background:
-            "linear-gradient(90deg, transparent, rgba(168,85,247,0.4), transparent)",
+            "linear-gradient(90deg, transparent, rgba(0,102,255,0.4), transparent)",
         }}
       />
 
@@ -132,7 +132,7 @@ export default function ComoFunciona() {
           <p className="text-brand-gris-claro text-lg">
             ¿Querés saber cómo aplica esto a tu empresa?{" "}
             <a
-              href="https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA"
+              href="https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA"
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand-morado-neon hover:text-brand-morado font-semibold underline underline-offset-4 transition-colors"

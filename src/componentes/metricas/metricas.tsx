@@ -121,7 +121,7 @@ export default function Metricas() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 80% 50% at 50% 50%, rgba(124,58,237,0.06) 0%, transparent 70%)",
+            "radial-gradient(ellipse 80% 50% at 50% 50%, rgba(0,85,204,0.06) 0%, transparent 70%)",
         }}
         aria-hidden="true"
       />
@@ -130,7 +130,7 @@ export default function Metricas() {
         className="absolute top-0 left-0 w-full h-px"
         style={{
           background:
-            "linear-gradient(90deg, transparent, rgba(59,130,246,0.4), transparent)",
+            "linear-gradient(90deg, transparent, rgba(0,212,255,0.4), transparent)",
         }}
       />
 

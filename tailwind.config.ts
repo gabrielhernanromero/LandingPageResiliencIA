@@ -10,19 +10,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Tokens de color del sistema ResiliencIA
+        // Tokens de color del sistema ReciliencIA — paleta profesional azul
         brand: {
-          negro: "#0a0a0f",
-          "negro-suave": "#111118",
-          morado: "#a855f7",
-          "morado-neon": "#c084fc",
-          "morado-oscuro": "#7c3aed",
-          "azul-electrico": "#3b82f6",
-          "azul-neon": "#60a5fa",
-          "azul-oscuro": "#1d4ed8",
+          negro: "#0D1117",            // fondo principal oscuro
+          "negro-suave": "#111827",    // secciones alternas (gray-900)
+          morado: "#0066FF",           // azul primario (acción principal)
+          "morado-neon": "#3B82F6",    // azul medio (highlights)
+          "morado-oscuro": "#0A2540",  // azul noche (dark navy)
+          "azul-electrico": "#0066FF", // alias azul primario
+          "azul-neon": "#00D4FF",      // cian acento
+          "azul-oscuro": "#0A2540",    // alias dark navy
           gris: "#6b7280",
-          "gris-claro": "#9ca3af",
-          blanco: "#f9fafb",
+          "gris-claro": "#94a3b8",
+          blanco: "#F8FAFC",
         },
       },
       fontFamily: {
@@ -30,8 +30,8 @@ const config: Config = {
       },
       backgroundImage: {
         "gradiente-hero": "linear-gradient(135deg, var(--tw-gradient-stops))",
-        "gradiente-morado":
-          "linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #3b82f6 100%)",
+        "gradiente-azul":
+          "linear-gradient(135deg, #0A2540 0%, #0066FF 50%, #00D4FF 100%)",
       },
       animation: {
         "pulso-neon": "pulsoNeon 2s ease-in-out infinite",
@@ -40,8 +40,8 @@ const config: Config = {
       },
       keyframes: {
         pulsoNeon: {
-          "0%, 100%": { boxShadow: "0 0 20px rgba(168, 85, 247, 0.4)" },
-          "50%": { boxShadow: "0 0 40px rgba(168, 85, 247, 0.8)" },
+          "0%, 100%": { boxShadow: "0 0 20px rgba(0, 102, 255, 0.4)" },
+          "50%": { boxShadow: "0 0 40px rgba(0, 102, 255, 0.8)" },
         },
         flotar: {
           "0%, 100%": { transform: "translateY(0px)" },

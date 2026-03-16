@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 :root {
-  /* Variables CSS del sistema de diseño ResiliencIA */
-  --color-negro: #0a0a0f;
-  --color-negro-suave: #111118;
-  --color-morado: #a855f7;
-  --color-morado-neon: #c084fc;
-  --color-morado-oscuro: #7c3aed;
-  --color-azul-electrico: #3b82f6;
-  --color-azul-neon: #60a5fa;
+  /* Variables CSS del sistema de diseño ReciliencIA — paleta profesional azul */
+  --color-negro: #0D1117;
+  --color-negro-suave: #111827;
+  --color-primario: #0066FF;
+  --color-primario-medio: #3B82F6;
+  --color-primario-oscuro: #0A2540;
+  --color-acento: #00D4FF;
+  --color-acento-suave: #67E8F9;
   --color-gris: #6b7280;
-  --color-blanco: #f9fafb;
+  --color-blanco: #F8FAFC;
 
-  /* Sombras de brillo neon */
-  --sombra-morado: 0 0 20px rgba(168, 85, 247, 0.5);
-  --sombra-morado-fuerte: 0 0 40px rgba(168, 85, 247, 0.8);
-  --sombra-azul: 0 0 20px rgba(59, 130, 246, 0.5);
+  /* Sombras de brillo */
+  --sombra-azul: 0 0 20px rgba(0, 102, 255, 0.5);
+  --sombra-azul-fuerte: 0 0 40px rgba(0, 102, 255, 0.8);
+  --sombra-cian: 0 0 20px rgba(0, 212, 255, 0.5);
 }
 
 html {
@@ -31,29 +31,29 @@ body {
 }
 
 @layer utilities {
-  /* Texto con gradiente morado-azul */
+  /* Texto con gradiente cian-azul (coincide con "IA" del logo) */
   .texto-gradiente {
-    background: linear-gradient(135deg, var(--color-morado-neon) 0%, var(--color-azul-neon) 100%);
+    background: linear-gradient(135deg, var(--color-acento) 0%, var(--color-primario-medio) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
-  /* Borde neon morado */
+  /* Borde neon azul primario */
   .borde-neon-morado {
-    border: 1px solid rgba(168, 85, 247, 0.4);
-    box-shadow: 0 0 15px rgba(168, 85, 247, 0.2), inset 0 0 15px rgba(168, 85, 247, 0.05);
+    border: 1px solid rgba(0, 102, 255, 0.4);
+    box-shadow: 0 0 15px rgba(0, 102, 255, 0.2), inset 0 0 15px rgba(0, 102, 255, 0.05);
   }
 
-  /* Borde neon azul */
+  /* Borde neon cian acento */
   .borde-neon-azul {
-    border: 1px solid rgba(59, 130, 246, 0.4);
-    box-shadow: 0 0 15px rgba(59, 130, 246, 0.2), inset 0 0 15px rgba(59, 130, 246, 0.05);
+    border: 1px solid rgba(0, 212, 255, 0.4);
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.2), inset 0 0 15px rgba(0, 212, 255, 0.05);
   }
 
   /* Fondo de card oscuro con glassmorphism */
   .fondo-card {
-    background: rgba(17, 17, 24, 0.8);
+    background: rgba(17, 24, 39, 0.8);
     backdrop-filter: blur(12px);
   }
 
@@ -65,10 +65,10 @@ body {
     background: var(--color-negro);
   }
   ::-webkit-scrollbar-thumb {
-    background: var(--color-morado-oscuro);
+    background: var(--color-primario-oscuro);
     border-radius: 3px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-morado);
+    background: var(--color-primario);
   }
 }

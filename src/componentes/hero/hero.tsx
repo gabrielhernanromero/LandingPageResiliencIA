@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { motion, type Variants } from "framer-motion";
 
 const WHATSAPP_URL =
-  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
+  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA";
 
 // Variantes de animación para el contenido del hero
 const variantesContenedor: Variants = {
@@ -50,10 +50,10 @@ export default function Hero() {
     }[] = [];
 
     const colores = [
-      "rgba(168, 85, 247, ",  // morado
-      "rgba(192, 132, 252, ", // morado-neon
-      "rgba(59, 130, 246, ",  // azul-eléctrico
-      "rgba(96, 165, 250, ",  // azul-neon
+      "rgba(0, 102, 255, ",   // azul primario
+      "rgba(59, 130, 246, ",  // azul medio
+      "rgba(0, 212, 255, ",   // cian acento
+      "rgba(103, 232, 249, ", // cian suave
     ];
 
     for (let i = 0; i < 80; i++) {
@@ -99,7 +99,7 @@ export default function Hero() {
             ctx.beginPath();
             ctx.moveTo(particulas[i].x, particulas[i].y);
             ctx.lineTo(particulas[j].x, particulas[j].y);
-            ctx.strokeStyle = `rgba(168, 85, 247, ${0.12 * (1 - dist / 120)})`;
+            ctx.strokeStyle = `rgba(0, 102, 255, ${0.12 * (1 - dist / 120)})`;
             ctx.lineWidth = 0.5;
             ctx.stroke();
           }
@@ -131,7 +131,7 @@ export default function Hero() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 80% 60% at 50% 40%, rgba(124, 58, 237, 0.15) 0%, transparent 70%), radial-gradient(ellipse 50% 40% at 80% 60%, rgba(59, 130, 246, 0.1) 0%, transparent 60%)",
+            "radial-gradient(ellipse 80% 60% at 50% 40%, rgba(0, 85, 204, 0.15) 0%, transparent 70%), radial-gradient(ellipse 50% 40% at 80% 60%, rgba(0, 212, 255, 0.1) 0%, transparent 60%)",
         }}
         aria-hidden="true"
       />

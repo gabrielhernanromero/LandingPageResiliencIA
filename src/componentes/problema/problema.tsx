@@ -53,7 +53,7 @@ export default function Problema() {
         className="absolute top-0 left-0 w-full h-px"
         style={{
           background:
-            "linear-gradient(90deg, transparent, rgba(168,85,247,0.4), transparent)",
+            "linear-gradient(90deg, transparent, rgba(0,102,255,0.4), transparent)",
         }}
       />
 

@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 const WHATSAPP_URL =
   "https://wa.me/5491154661480?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
 
@@ -54,15 +52,9 @@ export default function Footer() {
           {/* Logo y descripción */}
           <div className="flex flex-col gap-4">
             <a href="#" className="inline-flex">
-              <div className="h-12 rounded-lg overflow-hidden bg-white/95">
-                <Image
-                  src="/logo.jpg"
-                  alt="ResiliencIA"
-                  width={160}
-                  height={48}
-                  className="h-12 w-auto object-contain"
-                />
-              </div>
+              <span className="text-2xl font-bold tracking-tight text-brand-blanco">
+                Resilienc<span className="text-brand-azul-neon">IA</span>
+              </span>
             </a>
             <p className="text-brand-gris text-sm leading-relaxed max-w-xs">
               Automatización de atención al cliente con inteligencia artificial.

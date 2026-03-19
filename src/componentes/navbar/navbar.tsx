@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
 
 const WHATSAPP_URL =
   "https://wa.me/5491154661480?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
@@ -40,16 +39,9 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <div className="h-10 rounded-lg overflow-hidden bg-white/95">
-              <Image
-                src="/logo.jpg"
-                alt="ResiliencIA"
-                width={130}
-                height={40}
-                className="h-10 w-auto object-contain"
-                priority
-              />
-            </div>
+            <span className="text-2xl font-bold tracking-tight text-brand-blanco">
+              Resilienc<span className="text-brand-azul-neon">IA</span>
+            </span>
           </a>
 
           {/* Links de navegación — desktop */}

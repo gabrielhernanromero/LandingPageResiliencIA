@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
 const WHATSAPP_URL =
-  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA";
+  "https://wa.me/5491154661480?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
 
 const enlaces = [
   { nombre: "Servicios", href: "#servicios" },
@@ -43,7 +43,7 @@ export default function Navbar() {
             <div className="h-10 rounded-lg overflow-hidden bg-white/95">
               <Image
                 src="/logo.jpg"
-                alt="ReciliencIA"
+                alt="ResiliencIA"
                 width={130}
                 height={40}
                 className="h-10 w-auto object-contain"

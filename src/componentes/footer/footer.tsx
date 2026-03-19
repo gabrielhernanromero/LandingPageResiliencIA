@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 const WHATSAPP_URL =
-  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA";
+  "https://wa.me/5491154661480?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
 
 const linksNavegacion = [
   { nombre: "Servicios", href: "#servicios" },
@@ -57,7 +57,7 @@ export default function Footer() {
               <div className="h-12 rounded-lg overflow-hidden bg-white/95">
                 <Image
                   src="/logo.jpg"
-                  alt="ReciliencIA"
+                  alt="ResiliencIA"
                   width={160}
                   height={48}
                   className="h-12 w-auto object-contain"
@@ -134,7 +134,7 @@ export default function Footer() {
         <div className="border-t border-brand-morado/10 pt-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-brand-gris text-sm text-center sm:text-left">
-              © {anoActual} ReciliencIA. Todos los derechos reservados.
+              © {anoActual} ResiliencIA. Todos los derechos reservados.
             </p>
             <p className="text-brand-gris text-xs">
               Automatización con IA · Hecho en Argentina 🇦🇷

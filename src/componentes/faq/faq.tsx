@@ -151,7 +151,7 @@ export default function Faq() {
         >
           ¿Tenés otra pregunta?{" "}
           <a
-            href="https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA"
+            href="https://wa.me/5491154661480?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA"
             target="_blank"
             rel="noopener noreferrer"
             className="text-brand-morado-neon hover:text-brand-morado font-semibold transition-colors underline underline-offset-4"

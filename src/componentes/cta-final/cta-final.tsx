@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const WHATSAPP_URL =
-  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA";
+  "https://wa.me/5491154661480?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
 
 export default function CtaFinal() {
   const ref = useRef(null);
@@ -60,7 +60,7 @@ export default function CtaFinal() {
 
           {/* Subtítulo */}
           <p className="text-brand-gris-claro text-lg lg:text-xl max-w-2xl leading-relaxed">
-            Hablemos hoy. En 15 minutos te mostramos exactamente cómo ReciliencIA
+            Hablemos hoy. En 15 minutos te mostramos exactamente cómo ResiliencIA
             puede transformar la atención al cliente de tu empresa — sin compromiso.
           </p>
 

@@ -132,7 +132,7 @@ export default function ComoFunciona() {
           <p className="text-brand-gris-claro text-lg">
             ¿Querés saber cómo aplica esto a tu empresa?{" "}
             <a
-              href="https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA"
+              href="https://wa.me/5491154661480?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA"
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand-morado-neon hover:text-brand-morado font-semibold underline underline-offset-4 transition-colors"

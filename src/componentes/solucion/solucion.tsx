@@ -73,7 +73,7 @@ export default function Solucion() {
               La solución
             </span>
             <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-black text-brand-blanco leading-tight">
-              ReciliencIA pone tu
+              ResiliencIA pone tu
               <br />
               soporte en{" "}
               <span className="texto-gradiente">modo automático</span>
@@ -97,7 +97,7 @@ export default function Solucion() {
               </div>
               <div className="p-4 rounded-xl borde-neon-morado bg-brand-morado-oscuro/10">
                 <p className="text-brand-morado-neon font-bold text-sm mb-2">
-                  ✅ Con ReciliencIA
+                  ✅ Con ResiliencIA
                 </p>
                 <ul className="text-brand-gris-claro text-sm space-y-1">
                   <li>Respuesta en segundos</li>

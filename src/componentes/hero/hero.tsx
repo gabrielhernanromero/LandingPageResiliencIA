@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { motion, type Variants } from "framer-motion";
 
 const WHATSAPP_URL =
-  "https://wa.me/5491112345678?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ReciliencIA";
+  "https://wa.me/5491154661480?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ResiliencIA";
 
 // Variantes de animación para el contenido del hero
 const variantesContenedor: Variants = {
